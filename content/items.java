@@ -8,5 +8,9 @@ public class MTItems{
   
   public static void load(){
 		graphene = new Item("graphene", Color.valueOf("b2c6d2")){{
-      cost = 1.0f;
+	cost = 1.0f;
+		}};
+		
+		nanohex = new Item("nanohex", Colour.valueOf("5c5e9f")){{
+	cost = 1.0f;
 		}};
