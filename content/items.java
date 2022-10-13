@@ -4,4 +4,5 @@ import mindustry.type.item
 
 public class MTItems{
   public static Item
-  graphene, nanohex, microcore, 
+  graphene, nanohex, microcore, cryocube;
+  
