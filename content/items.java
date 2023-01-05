@@ -1,26 +1,26 @@
 package mindustrytaller.content;
 
-import mindustry.type.item
+import mindustry.type.item;
+import arc.graphics.*;
+import arc.struct.*;
+import mindustry.type.*;
 
 public class MTItems{
  	public static Item
- 	graphene, nanohex, microcore, cryocube;
+ 	ceramicComposite, quartz, rawStygium, oscillium, magnetite, Stygium, fractalMatter, nanoCore
   
 	public static void load(){
-		graphene = new Item("graphene", Color.valueOf("b2c6d2")){{
+		ceramicComposite = new Item("ceramic-composite", Color.valueOf("b8705c")){{
 			cost = 1.0f;
+			flammability = 0.1f;
+            		explosiveness = 0.1f;
+		}};
+		
+		quartz = new Item("quartz", Color.valueOf("b8705c")){{
+			cost = 1.0f;
+			charge = 0.1f;
+			
 		}};
 
-		nanohex = new Item("nanohex", Colour.valueOf("5c5e9f")){{
-			cost = 1.0f;
-		}};
-
-		microcore = new Item("graphene", Color.valueOf("ffd27e")){{
-			cost = 1.0f;
-		}};
-
-		cryocube = new Item("nanohex", Colour.valueOf("7a8cdc")){{
-			cost = 1.0f;
-		}};
 	}
 }
