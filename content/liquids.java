@@ -25,3 +25,5 @@ public class Liquids{
             effect = StatusEffects.blasted, StatusEffects.tarred;
             boilPoint = 0.5f;
         }};
+    }
+}
