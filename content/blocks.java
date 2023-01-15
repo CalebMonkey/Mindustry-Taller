@@ -84,7 +84,20 @@ public class Blocks{
             consumeLiquid(Liquids.water, 12f / 60f);
             consumePower(8f);
         }};
+        
+        surgeIntergrater = new GenericCrafter("surge-intergrater"){{
+            requirements(Category.crafting, with(Items.surgeAlloy, 60, Items.lead, 150, Items.thorium, 120), Items.silicon,100);
+            craftEffect = Fx.smeltsmoke;
+            outputItem = new ItemStack(Items.surgeAlloy, 2);
+            craftTime = 75f;
+            size = 3;
+            hasPower = true;
+            itemCapacity = 15;
+            drawer = new DrawMulti(new DrawDefault(), new DrawFlame());
 
+            consumePower(2f);
+            consumeItems(with(Items.copper, 2, Items.lead, 3, Items.titanium, 1, Items.silicon, 2, Items.pyratite, 1));
+        }};
             
             
         
