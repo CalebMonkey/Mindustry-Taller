@@ -34,7 +34,8 @@ public class Blocks{
             itemCapacity = 30;
             consumePower(4.5f);
             consumeItems(with(Items.graphite, 4, Items.sand, 6, Items.pyratite, 1));
-            outputItem = new ItemStack(Items.metaglass, 10)
+            outputItem = new ItemStack(Items.metaglass, 10);
+        }};
             
         plastaniumCoagulator = new GenericCrafter("plastaniumCoagulator"){{
             requirements(Category.crafting, with(Items.titanium, 200, Items.silicon, 160, Items.graphene, 40, Items.plastanium, 65));
@@ -52,7 +53,38 @@ public class Blocks{
             consumeItems(with(Items.titanium, 3, Items.lead,3));
             consumeLiquid(Liquids.oil, 0.75f);
             outputItem = new ItemStack(Items.plastanium, 3);
-            
+        }};
+        
+        phaseFabricator = new GenericCrafter("phase-fabricator"){{
+            requirements(Category.crafting, with(Items.phaseFabric, 50, Items.silicon, 125, Items.thorium, 100, Items.lead, 250));
+
+            size = 3;
+
+            itemCapacity = 40;
+            craftTime = 60f * 2f;
+            liquidCapacity = 10f * 4;
+
+            ambientSound = Sounds.techloop;
+            ambientSoundVolume = 0.04f;
+
+            outputItem = new ItemStack(Items.phaseFabric, 3);
+
+            drawer = new DrawMulti(new DrawRegion("-bottom"), new DrawSpikes(){{
+                color = Color.valueOf("ffd59e");
+                stroke = 1.5f;
+                layers = 2;
+                amount = 12;
+                rotateSpeed = 0.5f;
+                layerSpeed = -0.9f;
+            }}, new DrawMultiWeave(){{
+                glowColor = new Color(1f, 0.4f, 0.4f, 0.8f);
+            }});
+
+            consumeItems(with(Items.thorium, 8, Items.sand, 18, Items.graphite, 1));
+            consumeLiquid(Liquids.water, 12f / 60f);
+            consumePower(8f);
+        }};
+
             
             
         
