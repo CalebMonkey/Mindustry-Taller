@@ -1,7 +1,7 @@
 displayName: "Mindustry Taller"
 name: "Mindustry-Taller"
 author: "CalebMonkey"
-main: "Mindustry-Taller.Mindustry-TallerModLoader",
+main: "src.Mindustry-TallerModLoader",
 subtitle: "A Taller way to play Mindustry"
 description:
 '''
