@@ -12,20 +12,13 @@ public class mindustryTallerModLoader extends Mod {
 	}
 
 	public void mindustryTallerBlockContent() {
-		Mindustry-TallerBlocksPower.load();
-		Mindustry-TallerBlocksDefense.load();
-		Mindustry-TallerBlocksLogistic.load();
-		Mindustry-TallerBlocksProduction.load();
-		Mindustry-TallerBlocksUnits.load();
+		Blocks.load
 	}
 
 	@Override
 	public void loadContent() {
-		Mindustry-TallerStatusEffects.load();
-		UAWUnitTypes.load();
-		Mindustry-TallerItems.load();
-		Mindustry-TallerLiquids.load();
-		Mindustry-TallerBlockContent();
+		Items.load();
+		Liquids.load();
 
 	}
 }
