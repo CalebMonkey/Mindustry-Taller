@@ -16,14 +16,5 @@ public class Liquids{
             effect = StatusEffects.shocked;
             boilPoint = 0.5f;
         }};
-
-         electrolyte = new Liquid("electrolyte", Color.valueOf("f3e979")){{
-            heatCapacity = 0.7f;
-            viscosity = 0.8f;
-            explosiveness = 2.0f;
-            temperature = 0.8f;
-            effect = StatusEffects.blasted, StatusEffects.tarred;
-            boilPoint = 0.5f;
-        }};
     }
 }
