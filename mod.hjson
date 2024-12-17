@@ -1,17 +1,15 @@
-{
-  displayName: "Mindustry Taller"
-  name: "MindustryTaller"
-  author: "CalebMonkey"
-  main: MindustryTaller.MindustryTallerMod
-  subtitle: "A Taller way to play Mindustry"
-  description:
-  '''
-  Mindustry Taller adds more items and turrets to the game.
-  It aims to expand the game without making it "wider", allowing for higher strength of production and defence without impacting the early game.
-  '''
-  minGameVersion: 146
-  version: v0.1
-  repo: CalebMonkey/MindustryTaller
-  java: true
-  hidden: false
-}
+displayName: "Mindustry Taller"
+name: "MindustryTaller"
+author: "CalebMonkey"
+main: MindustryTaller.MindustryTallerMod
+subtitle: "A Taller way to play Mindustry"
+description:
+'''
+Mindustry Taller adds more items and turrets to the game.
+It aims to expand the game without making it "wider", allowing for higher strength of production and defence without impacting the early game.
+'''
+minGameVersion: 146
+version: v0.1
+repo: CalebMonkey/MindustryTaller
+java: true
+hidden: false
