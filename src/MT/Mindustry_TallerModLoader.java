@@ -1,7 +1,7 @@
-package Mindustry_Taller;
+package MindustryTaller;
 
-import Mindustry_Taller.content.*;
-import Mindustry_Taller.content.blocks.*;
+import MindustryTaller.content.*;
+import MindustryTaller.content.blocks.*;
 import arc.Events;
 import mindustry.game.EventType.FileTreeInitEvent;
 import mindustry.mod.Mod;
