@@ -1,7 +1,7 @@
 displayName: "Mindustry Taller"
-name: "Mindustry-Taller"
+name: "Mindustry_Taller"
 author: "CalebMonkey"
-main: "MT.Mindustry-TallerModLoader",
+main: "MT.Mindustry_TallerModLoader",
 subtitle: "A Taller way to play Mindustry"
 description:
 '''
@@ -10,6 +10,6 @@ It aims to expand the game without making it "wider", allowing for higher streng
 '''
 minGameVersion: 146
 version: v0.1
-repo: CalebMonkey/Mindustry-Taller
+repo: CalebMonkey/Mindustry_Taller
 java: true
 hidden: false
