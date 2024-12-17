@@ -23,7 +23,7 @@ public class MindustryTallerMod extends Mod {
 	}
 
 	public void mindustryTallerBlockContent() {
-		Blocks.load
+		Blocks.load();
 	}
 
 	@Override
