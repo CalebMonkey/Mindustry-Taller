@@ -17,8 +17,8 @@ import arc.*;
 import mindustry.game.EventType.FileTreeInitEvent;
 import mindustry.mod.Mod;
 
-public class MindustryTallerJavaMod extends Mod {
-	public MindustryTallerJavaMod() {
+public class MindustryTallerMod extends Mod {
+	public MindustryTallerMod() {
 		Events.on(FileTreeInitEvent.class, e -> Sfx.load());
 	}
 
