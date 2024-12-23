@@ -1,12 +1,12 @@
-displayName: "Mindustry Taller"
-name: "MindustryTaller"
+displayName: "Mindustry Taller Java"
+name: "MindustryTallerJava"
 author: "CalebMonkey"
-main: MindustryTaller.MindustryTallerMod
+main: MindustryTallerJava.MindustryTallerMod
 subtitle: "A Taller way to play Mindustry"
 description:
 "Mindustry Taller adds more items and turrets to the game. It aims to expand the game without making it wider, allowing for higher strength of production and defence without impacting the early game."
 minGameVersion: 146
 version: v0.1
-repo: CalebMonkey/MindustryTaller
+repo: CalebMonkey/MindustryTallerJava
 hidden: false
 java: true
