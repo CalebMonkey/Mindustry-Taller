@@ -1,5 +1,5 @@
 
-package MindustryTaller;
+package MindustryTallerJavaJava;
 
 import arc.*;
 import arc.util.*;
@@ -11,18 +11,18 @@ import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
 
-import MindustryTaller.content.*;
-import MindustryTaller.content.blocks.*;
+import MindustryTallerJava.content.*;
+import MindustryTallerJava.content.blocks.*;
 import arc.*;
 import mindustry.game.EventType.FileTreeInitEvent;
 import mindustry.mod.Mod;
 
-public class MindustryTallerMod extends Mod {
-	public MindustryTallerMod() {
+public class MindustryTallerJavaMod extends Mod {
+	public MindustryTallerJavaMod() {
 		Events.on(FileTreeInitEvent.class, e -> Sfx.load());
 	}
 
-	public void mindustryTallerBlockContent() {
+	public void MindustryTallerJavaBlockContent() {
 		Blocks.load();
 	}
 
