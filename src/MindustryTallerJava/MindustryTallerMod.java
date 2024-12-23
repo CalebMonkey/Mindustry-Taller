@@ -11,11 +11,7 @@ import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
 
-import MindustryTallerJava.content.*;
-import MindustryTallerJava.content.blocks.*;
-import arc.*;
-import mindustry.game.EventType.FileTreeInitEvent;
-import mindustry.mod.Mod;
+
 
 public class MindustryTallerMod extends Mod {
 
