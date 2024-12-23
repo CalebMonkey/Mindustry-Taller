@@ -18,13 +18,6 @@ import mindustry.game.EventType.FileTreeInitEvent;
 import mindustry.mod.Mod;
 
 public class MindustryTallerMod extends Mod {
-	public MindustryTallerMod() {
-		Events.on(FileTreeInitEvent.class, e -> Sfx.load());
-	}
-
-	public void MindustryTallerJavaBlockContent() {
-		Blocks.load();
-	}
 
 	@Override
 	public void loadContent() {
