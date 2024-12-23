@@ -1,5 +1,5 @@
 
-package MindustryTallerJavaJava;
+package MindustryTallerJava;
 
 import arc.*;
 import arc.util.*;
